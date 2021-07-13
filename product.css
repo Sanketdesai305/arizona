@@ -1,0 +1,124 @@
+html {
+    font-size: 62.6%;
+    box-sizing: border-box;
+}
+
+body {
+    font: 1.6rem helvetica;
+    height: 100vh;
+    margin: 0;
+}
+
+.brand a {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+    .header {
+    padding: 20px;
+    grid-area: header;
+    background-color: #071d4c;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+.head-links a {
+    font-size: 10px;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.header a {
+    padding-left: 10px;
+    font-size: 30px;
+    color: #ffffff;
+}
+.footer {
+    padding: 15px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #071d4c;
+    color: white;
+    text-align: center;
+}
+        /*side bar css*/
+
+.overlay {
+    height: 100%;
+    width: 25%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+}
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+    .overlay a:hover, .overlay a:focus {
+        color: #f1f1f1;
+    }
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 30px;
+}
+    .container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    
+    }
+    .newarrival{
+        background:green;
+        width:50px;
+        color:white;
+        font-size:12px;
+        font-weight:bold;
+        text-align: center;
+    }
+    .col-md-7 h2{
+        color:#555;
+    }
+    .stars{
+        height: 25px;
+    
+    }
+    .price{
+        color:#FE980F;
+        font-size:26px;
+        font-weight:bold;
+        padding-top: 20px;
+    }
+    input{
+    
+        border:1px solid #ccc;
+        font-weight: bold;
+        height:33px;
+        text-align:center;
+        width:30px;
+    }
+    .cart{
+    
+        background:#FE980F;
+        color:#FFFFFF;
+        font-size: 15px;
+        margin-left: 20px;
+        border-color: #FE980F;
+    }
